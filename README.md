@@ -1,4 +1,5 @@
 The following repository contains the necessary codes that should be implemented for this project (Advanced control of electronic wheelchairs to enhance mobility for individuals with Cerebral Palsy). The main components of the system include an Arduino for hardware control and several Python scripts for different control interfaces and sensor integrations.
+
 Note that some libraries might need to be installed in order for the programs to work.
 
 Repository Contents
@@ -16,8 +17,10 @@ Repository Contents
 
 
 The main programs that need to be running at all times are:
+
       Arduino_Control_Wheelchair.ino
       Control_Arduino_Grid3.py
+      
 Ensure the serial ports in both programs are correctly configured to match your hardware setup.
 
 Optional Adaptive Control Systems
