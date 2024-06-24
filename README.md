@@ -3,10 +3,15 @@ Note that some libraries might need to be installed in order for the programs to
 
 Repository Contents
       Control_Arduino_Grid3.py: Main Python script that reads and receives controls commands and sends them to the Arduino.
+      
       Arduino_Control_Wheelchair.ino: Main Arduino program for controlling the wheelchair.
+      
       Arduino_ESP32.ino: Arduino program for connecting with Amazon Alexa via ESP32.
+      
       Control_Arduino_Amazon.py: Python script for controlling the Arduino using Amazon Alexa.
+      
       Control_Arduino_prueba_camaras.py: Python script for integrating depth camera sensors.
+      
       Control_Arduino_witmotion.py: Python script for angular movement control using Witmotion sensors.
 
 
