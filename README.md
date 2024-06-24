@@ -23,21 +23,26 @@ The main programs that need to be running at all times are:
       
 Ensure the serial ports in both programs are correctly configured to match your hardware setup.
 
-Optional Adaptive Control Systems
+--> Adaptive Control Systems
     Depending on the adaptive control system you wish to use, follow the instructions below:
 
-    Angular Movement Control with Witmotion Sensor
-        To enable angular movement control, run the following script:
+1. Angular Movement Control with Witmotion Sensor
+   To enable angular movement control, run the following script:
+   
           Control_Arduino_witmotion.py
-        Ensure Bluetooth is activated on your computer for proper connection with the Witmotion sensor.
+   
+   Ensure Bluetooth is activated on your computer for proper connection with the Witmotion sensor.
         
-    Amazon Alexa Integration
-        For Amazon Alexa control, the following programs need to be running:
+3. Amazon Alexa Integration
+   For Amazon Alexa control, the following programs need to be running:
+   
           Arduino_ESP32.ino
           Control_Arduino_Amazon.py
-        This setup allows voice control of the wheelchair via Amazon Alexa.
+   This setup allows voice control of the wheelchair via Amazon Alexa.
         
-    Obstacle Detection System
-        The ultrasound sensors are already integrated into the Arduino_Control_Wheelchair.ino program. For additional obstacle detection using depth camera sensors, run the following script:        
+--> Obstacle Detection System
+      The ultrasound sensors are already integrated into the Arduino_Control_Wheelchair.ino program. For additional obstacle detection using depth camera sensors, run the following script:   
+        
           Control_Arduino_prueba_camaras.py
-        If you do not wish to use the camera sensors, simply comment out the relevant sections in the main Python program.
+          
+      If you do not wish to use the camera sensors, simply comment out the relevant sections in the main Python program.
