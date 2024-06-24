@@ -44,10 +44,14 @@ Ensure the serial ports in both programs are correctly configured to match your 
           Control_Arduino_Amazon.py
    
    This setup allows voice control of the wheelchair via Amazon Alexa.
+
+3. Vision control is already implemented onto the file. However, you must configure the program you will be using in order to simulate the established keys when slecting a command direction via eye gaze so that the Python program recognizes them
         
 **Obstacle Detection System**
-      The ultrasound sensors are already integrated into the Arduino_Control_Wheelchair.ino program. For additional obstacle detection using depth camera sensors, run the following script:   
+
+   The ultrasound sensors are already integrated into the Arduino_Control_Wheelchair.ino program. For additional obstacle detection using depth camera sensors, run the following script:   
         
           Control_Arduino_prueba_camaras.py
           
-      If you do not wish to use the camera sensors, simply comment out the relevant sections in the main Python program.
+   If you do not wish to use the camera sensors, simply comment out the relevant sections in the main Python program.
+
